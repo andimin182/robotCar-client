@@ -45,7 +45,7 @@ public:
         /* Publish on the /servoCameraCommand topic the servo camera commands.*/
         publisher_ = this->create_publisher<custom_interface_msgs::msg::ServoCameraCommand>("/servoCameraCommand", 10);
         /* Subscribe to the /imageDetectedCoG topic from the colorDetector node to acquire color image CoG informations.*/
-        subscription_ = this->create_subscription<sensor_msgs::msg::CompressedImage>(
+        subscription_ = this->create_subscription<custom_interface_msgs::msg::CoG>(
             "imageDetectedCoG", 10, std::bind(&ServoCameraControl::servo_camera_command_callback, this, _1));
         timer_ = this->create_wall_timer(
             500ms, std::bind(&ServoCameraControl::timer_callback, this));

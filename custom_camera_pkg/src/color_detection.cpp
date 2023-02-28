@@ -39,12 +39,14 @@ public:
         /* Subscribe to the /image_raw/compressed topic from the v4l node to acquire image informations from Raspi Camera.*/
         subscriptionCameraRaspi_ = this->create_subscription<sensor_msgs::msg::CompressedImage>(
             "image_raw/compressed", 10, std::bind(&ColorDetector::image_callback, this, _1));
-        timer_ = this->create_wall_timer(
-            500ms, std::bind(&ColorDetector::publish_callback, this));
+        timerCoG_ = this->create_wall_timer(
+            500ms, std::bind(&ColorDetector::CoG_callback, this));
+        timerImageDetected_ = this->create_wall_timer(
+            500ms, std::bind(&ColorDetector::imageDetected_callback, this));
     }
 
 private:
-    void publish_callback()
+    void CoG_callback()
     {
         // First publisher
         auto messageCoG = custom_interface_msgs::msg::CoG();
@@ -53,6 +55,10 @@ private:
         RCLCPP_INFO(this->get_logger(), "Publishing: CoG of detected color: '(%d, %d)'", messageCoG.position_x, messageCoG.position_y);
         publisherCoG_->publish(messageCoG);
 
+    }
+
+    void imageDetected_callback()
+    {
         // Second publisher
         auto messageDetectedColorImage = sensor_msgs::msg::CompressedImage();
         messageDetectedColorImage.format = "jpeg";
@@ -154,7 +160,8 @@ private:
     
     bool isParamInitialized_;
     cv::Point CoG_;
-    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::TimerBase::SharedPtr timerImageDetected_;
+    rclcpp::TimerBase::SharedPtr timerCoG_;
     rclcpp::Subscription<sensor_msgs::msg::CompressedImage>::SharedPtr subscriptionCameraRaspi_;
     rclcpp::Publisher<custom_interface_msgs::msg::CoG>::SharedPtr publisherCoG_;
     rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::SharedPtr publisherImageDetected_;
