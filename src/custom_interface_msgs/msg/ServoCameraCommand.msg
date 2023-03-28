@@ -1,0 +1,2 @@
+int32 servo_camera_angle_1
+int32 servo_camera_angle_2
