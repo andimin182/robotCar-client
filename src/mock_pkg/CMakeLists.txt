@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(custom_control_pkg)
+project(mock_pkg)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -22,7 +22,8 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(custom_interface_msgs REQUIRED)
+find_package(image_transport REQUIRED)
+find_package(OpenCV REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -34,11 +35,14 @@ if(BUILD_TESTING)
   #set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-add_executable(servoCameraControl src/servo_camera_control.cpp)
-ament_target_dependencies(servoCameraControl rclcpp sensor_msgs custom_interface_msgs)
+
+add_executable(mockCamera src/mock_camera.cpp)
+ament_target_dependencies(mockCamera rclcpp sensor_msgs OpenCV image_transport)
 
 install(TARGETS
-  servoCameraControl
+  mockCamera
   DESTINATION lib/${PROJECT_NAME})
+
+#target_link_libraries(mockCamera rosidl_typesupport_cpp)
 
 ament_package()

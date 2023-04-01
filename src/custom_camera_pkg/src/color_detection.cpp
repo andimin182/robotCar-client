@@ -61,8 +61,9 @@ private:
     {
         // Second publisher
         auto messageDetectedColorImage = sensor_msgs::msg::CompressedImage();
-        messageDetectedColorImage.format = "jpeg";
-        messageDetectedColorImage.data.assign(compressedRosImageData_.begin(), compressedRosImageData_.end());
+        messageDetectedColorImage.format = "png";
+        // messageDetectedColorImage.data.assign(compressedRosImageData_.begin(), compressedRosImageData_.end());
+        messageDetectedColorImage.data = compressedRosImageData_;
         RCLCPP_INFO(this->get_logger(), "Publishing image with detected color...");
         publisherImageDetected_->publish(messageDetectedColorImage);
     }
@@ -146,14 +147,13 @@ private:
         cv::circle(originalImage, CoG, 2, cv::Scalar(0,255,0), 2);
 
         // Display the received images
-        cv::imshow(MASK_WINDOW, mask);
+        // cv::imshow(MASK_WINDOW, mask);
         cv::imshow(OPENCV_WINDOW, originalImage);
         cv::waitKey(3);
 
         // Convert the detected color image to Ros
-        cv::cvtColor(originalImage, originalImage, cv::COLOR_BGR2RGB);
-        std::vector<uchar> compressedRosImageData_;
-        cv::imencode(".jpg", originalImage, compressedRosImageData_);
+        //cv::cvtColor(originalImage, originalImage, cv::COLOR_BGR2RGB);
+        cv::imencode(".png", originalImage, compressedRosImageData_);
 
         return CoG;
     }

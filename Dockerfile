@@ -21,10 +21,15 @@ RUN apt-get update && apt-get install -y \
     python3-rosinstall-generator \
     python3-wstool \
     build-essential
+    
+RUN apt install iputils-ping
+RUN apt install nano
 
 # Customization
 WORKDIR /root/dev_ws/src
 WORKDIR /root/dev_ws
+
+RUN chmod -R 777 src/
 
 # Source the first layer
 RUN /bin/bash -c "source /opt/ros/$ROS_DISTRO/setup.bash"
