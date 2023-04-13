@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     command: /bin/bash
     environment:
-      - DISPLAY=${DISPLAY}
+      - DISPLAY=192.168.1.76:0
       - QT_X11_NO_MITSHM=1
     image: ros-dev-image:1.0
     networks:
@@ -38,4 +38,10 @@ volumes:
     driver_opts:
       type: none
       device: /home/andi/DockerDev/robotCar-client/src
+      o: bind
+  dev-volume:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/andi/DockerDev/robotCar-client/dev_ws
       o: bind

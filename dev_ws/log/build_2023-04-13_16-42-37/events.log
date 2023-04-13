@@ -1,0 +1,345 @@
+[0.000000] (-) TimerEvent: {}
+[0.000760] (-) JobUnselected: {'identifier': 'custom_camera_pkg'}
+[0.000780] (-) JobUnselected: {'identifier': 'custom_control_pkg'}
+[0.000819] (-) JobUnselected: {'identifier': 'mock_pkg'}
+[0.000834] (custom_interface_msgs) JobQueued: {'identifier': 'custom_interface_msgs', 'dependencies': OrderedDict()}
+[0.000854] (custom_interface_msgs) JobStarted: {'identifier': 'custom_interface_msgs'}
+[0.008843] (custom_interface_msgs) JobProgress: {'identifier': 'custom_interface_msgs', 'progress': 'cmake'}
+[0.009349] (custom_interface_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/dev_ws/src/custom_interface_msgs', '-DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/custom_interface_msgs'], 'cwd': '/root/dev_ws/build/custom_interface_msgs', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '95a03e3f05c2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ament_cmake_DIR', '/opt/ros/foxy/share/ament_cmake/cmake'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', '192.168.1.76:0'), ('CMAKE_C_COMPILER', '/usr/bin/gcc'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CMAKE_MODULE_PATH', '/opt/ros/foxy/share/ament_cmake/cmake'), ('PWD', '/root/dev_ws/build/custom_interface_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages::/opt/ros/foxy/lib/py'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', ':/opt/ros/foxy')]), 'shell': False}
+[0.080353] (custom_interface_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099761] (-) TimerEvent: {}
+[0.117996] (custom_interface_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.121229] (custom_interface_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.198498] (custom_interface_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.199073] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199815] (-) TimerEvent: {}
+[0.267000] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.273770] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.273957] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.275524] (custom_interface_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299964] (-) TimerEvent: {}
+[0.334613] (custom_interface_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.335354] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401802] (-) TimerEvent: {}
+[0.407649] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.415905] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.416158] (custom_interface_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.417510] (custom_interface_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.432969] (custom_interface_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.433085] (custom_interface_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.503389] (-) TimerEvent: {}
+[0.543693] (custom_interface_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.549198] (custom_interface_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.558853] (custom_interface_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.603512] (-) TimerEvent: {}
+[0.637435] (custom_interface_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.660074] (custom_interface_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.706035] (-) TimerEvent: {}
+[0.718576] (custom_interface_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.753047] (custom_interface_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.806819] (-) TimerEvent: {}
+[0.836003] (custom_interface_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.903549] (custom_interface_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.907027] (-) TimerEvent: {}
+[0.910093] (custom_interface_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.924213] (custom_interface_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.926245] (custom_interface_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.944509] (custom_interface_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.944647] (custom_interface_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.944686] (custom_interface_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.944718] (custom_interface_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[0.957807] (custom_interface_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.989724] (custom_interface_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.007157] (-) TimerEvent: {}
+[1.018086] (custom_interface_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.019003] (custom_interface_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.022470] (custom_interface_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.050348] (custom_interface_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.050578] (custom_interface_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/dev_ws/build/custom_interface_msgs\n'}
+[1.055435] (custom_interface_msgs) CommandEnded: {'returncode': 0}
+[1.055968] (custom_interface_msgs) JobProgress: {'identifier': 'custom_interface_msgs', 'progress': 'build'}
+[1.055987] (custom_interface_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/custom_interface_msgs', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/custom_interface_msgs', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '95a03e3f05c2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ament_cmake_DIR', '/opt/ros/foxy/share/ament_cmake/cmake'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', '192.168.1.76:0'), ('CMAKE_C_COMPILER', '/usr/bin/gcc'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CMAKE_MODULE_PATH', '/opt/ros/foxy/share/ament_cmake/cmake'), ('PWD', '/root/dev_ws/build/custom_interface_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages::/opt/ros/foxy/lib/py'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', ':/opt/ros/foxy')]), 'shell': False}
+[1.092851] (custom_interface_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.092986] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__cpp\x1b[0m\n'}
+[1.101795] (custom_interface_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.107226] (-) TimerEvent: {}
+[1.208695] (-) TimerEvent: {}
+[1.308899] (-) TimerEvent: {}
+[1.327515] (custom_interface_msgs) StdoutLine: {'line': b'[  3%] Built target custom_interface_msgs__cpp\n'}
+[1.340123] (custom_interface_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.375276] (custom_interface_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.391040] (custom_interface_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.391416] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.408996] (-) TimerEvent: {}
+[1.412383] (custom_interface_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[1.509092] (-) TimerEvent: {}
+[1.517662] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.524767] (custom_interface_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_msgs/msg/detail/motor_velocity__functions.c.o\x1b[0m\n'}
+[1.564990] (custom_interface_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[1.579269] (custom_interface_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_msgs/msg/detail/servo_camera_command__functions.c.o\x1b[0m\n'}
+[1.605095] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.609186] (-) TimerEvent: {}
+[1.623807] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.625993] (custom_interface_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[1.639409] (custom_interface_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_msgs/msg/detail/co_g__functions.c.o\x1b[0m\n'}
+[1.642659] (custom_interface_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[1.681320] (custom_interface_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.709343] (-) TimerEvent: {}
+[1.736715] (custom_interface_msgs) StdoutLine: {'line': b'[ 23%] Built target custom_interface_msgs__rosidl_generator_c\n'}
+[1.744427] (custom_interface_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_msgs/msg/detail/motor_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.810590] (-) TimerEvent: {}
+[1.841743] (custom_interface_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_msgs/msg/motor_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.842792] (custom_interface_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_msgs/msg/detail/servo_camera_command__type_support.cpp.o\x1b[0m\n'}
+[1.910706] (-) TimerEvent: {}
+[1.933128] (custom_interface_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_msgs/msg/detail/co_g__type_support.cpp.o\x1b[0m\n'}
+[1.966300] (custom_interface_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_msgs/msg/detail/dds_fastrtps/motor_velocity__type_support.cpp.o\x1b[0m\n'}
+[1.999054] (custom_interface_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_msgs/msg/servo_camera_command__type_support.cpp.o\x1b[0m\n'}
+[2.010817] (-) TimerEvent: {}
+[2.064457] (custom_interface_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_msgs/msg/co_g__type_support.cpp.o\x1b[0m\n'}
+[2.110941] (-) TimerEvent: {}
+[2.132032] (custom_interface_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.175537] (custom_interface_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_msgs/msg/detail/dds_fastrtps/servo_camera_command__type_support.cpp.o\x1b[0m\n'}
+[2.211058] (-) TimerEvent: {}
+[2.218452] (custom_interface_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.225936] (custom_interface_msgs) StdoutLine: {'line': b'[ 41%] Built target custom_interface_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.232797] (custom_interface_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_msgs/msg/detail/dds_fastrtps/co_g__type_support.cpp.o\x1b[0m\n'}
+[2.234885] (custom_interface_msgs) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.248694] (custom_interface_msgs) StdoutLine: {'line': b'[ 45%] Built target custom_interface_msgs__rosidl_typesupport_cpp\n'}
+[2.268646] (custom_interface_msgs) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.311155] (-) TimerEvent: {}
+[2.411376] (-) TimerEvent: {}
+[2.448277] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.476227] (custom_interface_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[2.476548] (custom_interface_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.483008] (custom_interface_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_msgs/msg/motor_velocity__type_support.cpp.o\x1b[0m\n'}
+[2.505257] (custom_interface_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_msgs/msg/servo_camera_command__type_support.cpp.o\x1b[0m\n'}
+[2.508876] (custom_interface_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_msgs/msg/co_g__type_support.cpp.o\x1b[0m\n'}
+[2.511460] (-) TimerEvent: {}
+[2.531843] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.534567] (custom_interface_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.543925] (custom_interface_msgs) StdoutLine: {'line': b'[ 58%] Built target custom_interface_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.545273] (custom_interface_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_msgs/msg/detail/motor_velocity__type_support.c.o\x1b[0m\n'}
+[2.552195] (custom_interface_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[2.563146] (custom_interface_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_msgs/msg/detail/servo_camera_command__type_support.c.o\x1b[0m\n'}
+[2.571436] (custom_interface_msgs) StdoutLine: {'line': b'[ 63%] Built target custom_interface_msgs__rosidl_typesupport_c\n'}
+[2.580698] (custom_interface_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.591183] (custom_interface_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_msgs/msg/detail/co_g__type_support.c.o\x1b[0m\n'}
+[2.611566] (-) TimerEvent: {}
+[2.617663] (custom_interface_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.640485] (custom_interface_msgs) StdoutLine: {'line': b'[ 69%] Built target custom_interface_msgs__rosidl_typesupport_introspection_c\n'}
+[2.715365] (-) TimerEvent: {}
+[2.762390] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.781534] (custom_interface_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_msgs/msg/detail/motor_velocity__type_support_c.cpp.o\x1b[0m\n'}
+[2.781732] (custom_interface_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[2.783160] (custom_interface_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_msgs/msg/detail/co_g__type_support_c.cpp.o\x1b[0m\n'}
+[2.784274] (custom_interface_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_msgs/msg/detail/servo_camera_command__type_support_c.cpp.o\x1b[0m\n'}
+[2.815488] (-) TimerEvent: {}
+[2.915842] (-) TimerEvent: {}
+[3.016202] (-) TimerEvent: {}
+[3.036938] (custom_interface_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.096273] (custom_interface_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_interface_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.105587] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs\x1b[0m\n'}
+[3.113571] (custom_interface_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_interface_msgs\n'}
+[3.116272] (-) TimerEvent: {}
+[3.122011] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__py\x1b[0m\n'}
+[3.130306] (custom_interface_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.221060] (-) TimerEvent: {}
+[3.321327] (-) TimerEvent: {}
+[3.424911] (-) TimerEvent: {}
+[3.525173] (-) TimerEvent: {}
+[3.536617] (custom_interface_msgs) StdoutLine: {'line': b'[ 80%] Built target custom_interface_msgs__py\n'}
+[3.545629] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__python\x1b[0m\n'}
+[3.589498] (custom_interface_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__python.dir/rosidl_generator_py/custom_interface_msgs/msg/_motor_velocity_s.c.o\x1b[0m\n'}
+[3.589625] (custom_interface_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__python.dir/rosidl_generator_py/custom_interface_msgs/msg/_servo_camera_command_s.c.o\x1b[0m\n'}
+[3.589664] (custom_interface_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__python.dir/rosidl_generator_py/custom_interface_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[3.595356] (custom_interface_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__python.dir/rosidl_generator_py/custom_interface_msgs/msg/_co_g_s.c.o\x1b[0m\n'}
+[3.625333] (-) TimerEvent: {}
+[3.676375] (custom_interface_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_msgs/libcustom_interface_msgs__python.so\x1b[0m\n'}
+[3.704387] (custom_interface_msgs) StdoutLine: {'line': b'[ 89%] Built target custom_interface_msgs__python\n'}
+[3.713502] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.713653] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.713689] (custom_interface_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interface_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.725444] (-) TimerEvent: {}
+[3.729107] (custom_interface_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface_msgs/_custom_interface_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.730911] (custom_interface_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface_msgs/_custom_interface_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.731091] (custom_interface_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_interface_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface_msgs/_custom_interface_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.797331] (custom_interface_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.799225] (custom_interface_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.802594] (custom_interface_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.824900] (custom_interface_msgs) StdoutLine: {'line': b'[100%] Built target custom_interface_msgs__rosidl_typesupport_c__pyext\n'}
+[3.825506] (-) TimerEvent: {}
+[3.828962] (custom_interface_msgs) StdoutLine: {'line': b'[100%] Built target custom_interface_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.841588] (custom_interface_msgs) StdoutLine: {'line': b'[100%] Built target custom_interface_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.851515] (custom_interface_msgs) CommandEnded: {'returncode': 0}
+[3.925646] (-) TimerEvent: {}
+[3.939726] (custom_interface_msgs) JobProgress: {'identifier': 'custom_interface_msgs', 'progress': 'install'}
+[3.948305] (custom_interface_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/custom_interface_msgs'], 'cwd': '/root/dev_ws/build/custom_interface_msgs', 'env': OrderedDict([('CMAKE_CXX_COMPILER', '/usr/bin/g++'), ('HOSTNAME', '95a03e3f05c2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ament_cmake_DIR', '/opt/ros/foxy/share/ament_cmake/cmake'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('CMAKE_MAKE_PROGRAM', '/usr/bin/make'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', '192.168.1.76:0'), ('CMAKE_C_COMPILER', '/usr/bin/gcc'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CMAKE_MODULE_PATH', '/opt/ros/foxy/share/ament_cmake/cmake'), ('PWD', '/root/dev_ws/build/custom_interface_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages::/opt/ros/foxy/lib/py'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', ':/opt/ros/foxy')]), 'shell': False}
+[3.955191] (custom_interface_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.955355] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_interface_msgs\n'}
+[3.955590] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs\n'}
+[3.955637] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg\n'}
+[3.955798] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.955993] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/motor_velocity.h\n'}
+[3.956133] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/motor_command.h\n'}
+[3.956221] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/co_g.h\n'}
+[3.956269] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/servo_camera_command.h\n'}
+[3.956312] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail\n'}
+[3.956396] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__struct.h\n'}
+[3.956441] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__type_support.h\n'}
+[3.956472] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__functions.c\n'}
+[3.956556] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__functions.c\n'}
+[3.956586] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__struct.h\n'}
+[3.956615] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__functions.h\n'}
+[3.956657] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__functions.h\n'}
+[3.956686] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__type_support.h\n'}
+[3.956916] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__type_support.h\n'}
+[3.957036] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__functions.c\n'}
+[3.957103] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__struct.h\n'}
+[3.957147] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__functions.h\n'}
+[3.957249] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__type_support.h\n'}
+[3.957280] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__struct.h\n'}
+[3.957333] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__functions.c\n'}
+[3.957504] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__functions.h\n'}
+[3.957764] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/library_path.sh\n'}
+[3.957814] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/library_path.dsv\n'}
+[3.957847] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_generator_c.so\n'}
+[3.958113] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_generator_c.so" to ""\n'}
+[3.958525] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs\n'}
+[3.958598] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg\n'}
+[3.958652] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.958683] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail\n'}
+[3.958777] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__rosidl_typesupport_fastrtps_c.h\n'}
+[3.958858] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__rosidl_typesupport_fastrtps_c.h\n'}
+[3.958973] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[3.959032] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[3.959076] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.959323] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.959552] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs\n'}
+[3.959663] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg\n'}
+[3.959721] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.959765] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail\n'}
+[3.959913] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.960001] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/dds_fastrtps\n'}
+[3.960037] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.960076] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.960107] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.960215] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.960494] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.960537] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs\n'}
+[3.960568] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg\n'}
+[3.962342] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.966222] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail\n'}
+[3.966345] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__rosidl_typesupport_introspection_c.h\n'}
+[3.966386] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[3.966419] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__type_support.c\n'}
+[3.966451] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__type_support.c\n'}
+[3.966482] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__rosidl_typesupport_introspection_c.h\n'}
+[3.966521] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__type_support.c\n'}
+[3.966553] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__rosidl_typesupport_introspection_c.h\n'}
+[3.966583] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__type_support.c\n'}
+[3.966631] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.966666] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.966697] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_c.so\n'}
+[3.966754] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.966785] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs\n'}
+[3.966815] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg\n'}
+[3.966845] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/co_g.hpp\n'}
+[3.966875] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/motor_command.hpp\n'}
+[3.966907] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/servo_camera_command.hpp\n'}
+[3.967168] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail\n'}
+[3.967233] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__traits.hpp\n'}
+[3.967287] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__traits.hpp\n'}
+[3.967320] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__traits.hpp\n'}
+[3.967350] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__builder.hpp\n'}
+[3.967380] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__builder.hpp\n'}
+[3.967409] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__traits.hpp\n'}
+[3.967440] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__struct.hpp\n'}
+[3.967470] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__struct.hpp\n'}
+[3.967500] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__struct.hpp\n'}
+[3.967530] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__builder.hpp\n'}
+[3.967559] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__struct.hpp\n'}
+[3.967589] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__builder.hpp\n'}
+[3.967619] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/motor_velocity.hpp\n'}
+[3.967650] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs\n'}
+[3.967681] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg\n'}
+[3.967711] (custom_interface_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail\n'}
+[3.967740] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.967770] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.967800] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.967830] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__type_support.cpp\n'}
+[3.967865] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/servo_camera_command__type_support.cpp\n'}
+[3.967898] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/co_g__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.967929] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_command__type_support.cpp\n'}
+[3.967960] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/include/custom_interface_msgs/msg/detail/motor_velocity__type_support.cpp\n'}
+[3.967991] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.968021] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.968051] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_cpp.so\n'}
+[3.968081] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.968134] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/pythonpath.sh\n'}
+[3.968169] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/pythonpath.dsv\n'}
+[3.968199] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/__init__.py\n'}
+[3.987039] (custom_interface_msgs) StdoutLine: {'line': b"Compiling '/root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/__init__.py'...\n"}
+[3.989613] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg\n'}
+[3.989749] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_servo_camera_command.py\n'}
+[3.989788] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_motor_command.py\n'}
+[3.990066] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_motor_command_s.c\n'}
+[3.990189] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/__init__.py\n'}
+[3.990225] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_co_g_s.c\n'}
+[3.990364] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_co_g.py\n'}
+[3.990408] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_servo_camera_command_s.c\n'}
+[3.990827] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_motor_velocity_s.c\n'}
+[3.990871] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/msg/_motor_velocity.py\n'}
+[3.990907] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.991181] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.002349] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.002472] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.002610] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[4.002662] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/python3.8/site-packages/custom_interface_msgs/custom_interface_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[4.002696] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__python.so\n'}
+[4.002739] (custom_interface_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/custom_interface_msgs/lib/libcustom_interface_msgs__python.so" to ""\n'}
+[4.002770] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/MotorCommand.idl\n'}
+[4.002800] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/MotorVelocity.idl\n'}
+[4.002830] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/ServoCameraCommand.idl\n'}
+[4.002860] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/CoG.idl\n'}
+[4.002890] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/MotorCommand.msg\n'}
+[4.002921] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/MotorVelocity.msg\n'}
+[4.002952] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/ServoCameraCommand.msg\n'}
+[4.002981] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/msg/CoG.msg\n'}
+[4.003012] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/ament_index/resource_index/package_run_dependencies/custom_interface_msgs\n'}
+[4.003042] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/ament_index/resource_index/parent_prefix_path/custom_interface_msgs\n'}
+[4.003071] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/ament_prefix_path.sh\n'}
+[4.003101] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/ament_prefix_path.dsv\n'}
+[4.003130] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/path.sh\n'}
+[4.003163] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/environment/path.dsv\n'}
+[4.003194] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/local_setup.bash\n'}
+[4.003224] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/local_setup.sh\n'}
+[4.003254] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/local_setup.zsh\n'}
+[4.003283] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/local_setup.dsv\n'}
+[4.003315] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/package.dsv\n'}
+[4.003344] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/ament_index/resource_index/packages/custom_interface_msgs\n'}
+[4.003373] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_generator_cExport.cmake\n'}
+[4.003403] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.003432] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.003461] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.003491] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.003523] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.003552] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.003581] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.003611] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.003640] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.003670] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.003705] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.003734] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.003764] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.003795] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.003824] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.003853] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.003884] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.003915] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgsConfig.cmake\n'}
+[4.003944] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/cmake/custom_interface_msgsConfig-version.cmake\n'}
+[4.003974] (custom_interface_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/custom_interface_msgs/share/custom_interface_msgs/package.xml\n'}
+[4.006788] (custom_interface_msgs) CommandEnded: {'returncode': 0}
+[4.026572] (-) TimerEvent: {}
+[4.126862] (-) TimerEvent: {}
+[4.128880] (custom_interface_msgs) JobEnded: {'identifier': 'custom_interface_msgs', 'rc': 0}
+[4.129569] (-) EventReactorShutdown: {}

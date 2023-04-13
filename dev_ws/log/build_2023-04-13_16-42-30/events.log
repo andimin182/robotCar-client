@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (-) JobUnselected: {'identifier': 'custom_camera_pkg'}
+[0.000215] (-) JobUnselected: {'identifier': 'custom_control_pkg'}
+[0.000225] (-) JobUnselected: {'identifier': 'custom_interface_msgs'}
+[0.000234] (-) JobUnselected: {'identifier': 'mock_pkg'}
+[0.000243] (-) EventReactorShutdown: {}

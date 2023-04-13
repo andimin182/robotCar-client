@@ -1,0 +1,8 @@
+msg/CoG.idl
+msg/CoG.msg
+msg/MotorCommand.idl
+msg/MotorCommand.msg
+msg/MotorVelocity.idl
+msg/MotorVelocity.msg
+msg/ServoCameraCommand.idl
+msg/ServoCameraCommand.msg

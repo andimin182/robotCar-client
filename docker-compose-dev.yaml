@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  ros-dev-app-2:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+    command: /bin/bash
+    environment:
+      - DISPLAY=192.168.1.76:0
+      - QT_X11_NO_MITSHM=1
+    image: ros-dev-image:1.0
+    networks:
+      ros_macvlan:
+        #ipv4_adress: 192.168.1.10
+    container_name: ros-dev-app-2
+    restart: unless-stopped
+    volumes:
+      - dev-volume:/root/dev_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    ports:
+      - "11311:11311"
+    tty: true
+    stdin_open: true
+    
+networks:
+  ros_macvlan:
+    driver: macvlan
+    driver_opts:
+      parent: enp0s1
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24
+          gateway: 192.168.1.1
+
+volumes:
+  src-volume:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/andi/DockerDev/robotCar-client/src
+      o: bind
+  dev-volume:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/andi/DockerDev/robotCar-client/dev_ws
+      o: bind
