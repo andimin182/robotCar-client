@@ -1,4 +1,0 @@
-int64 left_upper_wheel_vel
-int64 left_lower_wheel_vel
-int64 right_upper_wheel_vel
-int64 right_lower_wheel_vel

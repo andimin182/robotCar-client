@@ -1,4 +1,0 @@
-/root/dev_ws/build/custom_interface_msgs/rosidl_adapter/custom_interface_msgs:msg/MotorCommand.idl
-/root/dev_ws/build/custom_interface_msgs/rosidl_adapter/custom_interface_msgs:msg/MotorVelocity.idl
-/root/dev_ws/build/custom_interface_msgs/rosidl_adapter/custom_interface_msgs:msg/ServoCameraCommand.idl
-/root/dev_ws/build/custom_interface_msgs/rosidl_adapter/custom_interface_msgs:msg/CoG.idl

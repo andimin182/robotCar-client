@@ -1,6 +1,0 @@
-Invoking command in '/root/dev_ws/build/custom_control_pkg': /usr/bin/cmake /root/dev_ws/src/custom_control_pkg -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/custom_control_pkg
-Invoked command in '/root/dev_ws/build/custom_control_pkg' returned '0': /usr/bin/cmake /root/dev_ws/src/custom_control_pkg -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/custom_control_pkg
-Invoking command in '/root/dev_ws/build/custom_control_pkg': /usr/bin/cmake --build /root/dev_ws/build/custom_control_pkg -- -j4 -l4
-Invoked command in '/root/dev_ws/build/custom_control_pkg' returned '0': /usr/bin/cmake --build /root/dev_ws/build/custom_control_pkg -- -j4 -l4
-Invoking command in '/root/dev_ws/build/custom_control_pkg': /usr/bin/cmake --install /root/dev_ws/build/custom_control_pkg
-Invoked command in '/root/dev_ws/build/custom_control_pkg' returned '0': /usr/bin/cmake --install /root/dev_ws/build/custom_control_pkg

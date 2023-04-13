@@ -1,0 +1,4 @@
+#Exclude those files of building src
+build
+log
+install
