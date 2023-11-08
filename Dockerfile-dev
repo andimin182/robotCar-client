@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     python3-rosinstall \
     python3-rosinstall-generator \
     python3-wstool \
+    ros-foxy-gazebo-ros-pkgs \
     build-essential
     
 RUN apt install iputils-ping
@@ -51,10 +52,14 @@ ENV ROS_DOMAIN_ID=5
 # Set the ament_cmake_DIR variable
 ENV ament_cmake_DIR /opt/ros/$ROS_DISTRO/share/ament_cmake/cmake
 
+# Build the custom_interface_msgs
+RUN colcon build --packages-select custom_interface_msgs
 # Add the source command to .bashrc
 RUN echo "source /root/dev_ws/install/setup.bash" >> /root/.bashrc
 
-
+# Build the custom_control_pkg
+RUN colcon build --packages-select custom_control_pkg
+RUN /bin/bash -c "source /root/dev_ws/install/setup.bash"
 #COPY ros2_entrypoint.sh /root/.
 #ENTRYPOINT ["/root/ros2_entrypoint.sh"]
 CMD ["bash"]
